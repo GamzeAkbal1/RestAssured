@@ -1,6 +1,8 @@
 package studentExtractJson;
 
 import com.jayway.restassured.RestAssured;
+import com.jayway.restassured.response.Response;
+import com.jayway.restassured.response.ValidatableResponse;
 import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.BeforeClass;
@@ -10,8 +12,6 @@ import java.util.List;
 
 import static com.jayway.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
-import static org.hamcrest.Matchers.contains;
-import static org.hamcrest.Matchers.allOf;
 /**
  * Created by xernea on 06.09.2017.
  */
@@ -125,8 +125,21 @@ public class extractTest {
         System.out.println("================== All EUR/USD Values ==================");
         System.out.println(values);
 
-        Assert.assertThat("EUR/USD", equalToIgnoringCase(values.get(0).toString()));
+        Assert.assertThat("EUR/USD", equalToIgnoringCase(values.get(0)));
 
+    }
+
+    @Test
+    public void getTheNamesGreaterThanTen(){
+
+        Response response = given().param("q","select * from yahoo.finance.xchange where pair in (\"EURUSD\",\"GBPUSD\")")
+                .param("format","json")
+                .param("env","store://datatables.org/alltableswithkeys")
+                .param("diagnostics","true")
+                .when().get("/yql");
+        List<String> nameList = response.then().extract().path("query.results.rate.findAll{it.Rate>'1.3'}.Name");
+        System.out.print(nameList);
+        Assert.assertThat("GBP/USD",equalToIgnoringCase(nameList.get(0)));
     }
 
 }

@@ -19,18 +19,8 @@
       <file leaf-file-name="studentGetTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/studentTests/studentGetTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
+            <state relative-caret-position="-320">
               <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="studentPostTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/studentTests/studentPostTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
-              <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -39,9 +29,11 @@
       <file leaf-file-name="loggingTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/studentLogging/loggingTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="680">
+            <state relative-caret-position="840">
               <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
-              <folding />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -49,10 +41,23 @@
       <file leaf-file-name="extractTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/studentExtractJson/extractTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+            <state relative-caret-position="76">
+              <caret line="129" column="5" lean-forward="true" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RestAssured.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.9.0/rest-assured-2.9.0.jar!/com/jayway/restassured/RestAssured.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="155">
+              <caret line="468" column="0" lean-forward="false" selection-start-line="468" selection-start-column="0" selection-end-line="468" selection-end-column="0" />
+              <folding>
+                <element signature="e#7835#7836#0" expanded="true" />
+                <element signature="e#7909#7910#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -61,92 +66,9 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="820">
+            <state relative-caret-position="340">
               <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="studentPutTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/studentTests/studentPutTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="studentDeleteTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/studentTests/studentDeleteTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="baseTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/studentBaseTest/baseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="uiDesigner.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <marker date="1505207318253" expanded="true" signature="85210:85331" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="85210:85349" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="85210:85362" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="85210:85377" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="85233:85314" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="85412:87049" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="85425:87034" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="85476:85741" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="85495:85726" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="85528:85706" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="85568:85672" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="85589:85650" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="85784:86049" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="85803:86034" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="85836:86014" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="85876:85980" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="85897:85958" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="86084:86390" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="86103:86375" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="86177:86355" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="86217:86321" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="86238:86299" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="86442:86707" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="86461:86692" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="86494:86672" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="86534:86638" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="86555:86616" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="86755:87020" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="86774:87005" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="86807:86985" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="86847:86951" ph="..." />
-                <marker date="1505207318253" expanded="true" signature="86868:86929" ph="..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -193,7 +115,7 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -206,215 +128,7 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentAppRestAssure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentAppRestAssure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentAppRestAssure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentAppRestAssure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentAppRestAssure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="studentTests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentAppRestAssure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentAppRestAssure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentAppRestAssure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentAppRestAssure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="studentLogging" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentAppRestAssure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentAppRestAssure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="studentExtractJson" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentAppRestAssure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentAppRestAssure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="studentBaseTest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentAppRestAssure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentAppRestAssure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentAppRestAssure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentAppRestAssure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentAppRestAssure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="StudentAppRestAssure" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
@@ -436,7 +150,59 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.extractTest.getValueWithANameGood">
+  <component name="RunManager" selected="JUnit.extractTest">
+    <configuration default="false" name="extractTest.getValueWithANameGood" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="studentExtractJson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="StudentAppRestAssure" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="studentExtractJson" />
+      <option name="MAIN_CLASS_NAME" value="studentExtractJson.extractTest" />
+      <option name="METHOD_NAME" value="getValueWithANameGood" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="extractTest.getTheNamesWhichRateGreaterThanTen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="studentExtractJson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="StudentAppRestAssure" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="studentExtractJson" />
+      <option name="MAIN_CLASS_NAME" value="studentExtractJson.extractTest" />
+      <option name="METHOD_NAME" value="getTheNamesWhichRateGreaterThanTen" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
     <configuration default="false" name="extractTest.getCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -450,6 +216,32 @@
       <option name="PACKAGE_NAME" value="studentExtractJson" />
       <option name="MAIN_CLASS_NAME" value="studentExtractJson.extractTest" />
       <option name="METHOD_NAME" value="getCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="extractTest.getTheNamesGreaterThanTen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="studentExtractJson.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="StudentAppRestAssure" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="studentExtractJson" />
+      <option name="MAIN_CLASS_NAME" value="studentExtractJson.extractTest" />
+      <option name="METHOD_NAME" value="getTheNamesGreaterThanTen" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -477,84 +269,6 @@
       <option name="MAIN_CLASS_NAME" value="studentExtractJson.extractTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="extractTest.getValueWithAnName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="studentExtractJson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="StudentAppRestAssure" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="studentExtractJson" />
-      <option name="MAIN_CLASS_NAME" value="studentExtractJson.extractTest" />
-      <option name="METHOD_NAME" value="getValueWithAnName" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="extractTest.getAllNames" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="studentExtractJson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="StudentAppRestAssure" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="studentExtractJson" />
-      <option name="MAIN_CLASS_NAME" value="studentExtractJson.extractTest" />
-      <option name="METHOD_NAME" value="getAllNames" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="extractTest.getValueWithANameGood" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="studentExtractJson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="StudentAppRestAssure" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="studentExtractJson" />
-      <option name="MAIN_CLASS_NAME" value="studentExtractJson.extractTest" />
-      <option name="METHOD_NAME" value="getValueWithANameGood" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -772,19 +486,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.extractTest.getCount" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.extractTest" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.extractTest.getValueWithAnName" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.extractTest.getAllNames" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.extractTest.getValueWithANameGood" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.extractTest.getValueWithANameGood" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.extractTest.getTheNamesWhichRateGreaterThanTen" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.extractTest.getCount" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.extractTest.getTheNamesGreaterThanTen" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.extractTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.extractTest.getValueWithANameGood" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.extractTest.getValueWithAnName" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.extractTest.getAllNames" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.extractTest" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.extractTest.getCount" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.extractTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.extractTest.getTheNamesGreaterThanTen" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.extractTest.getTheNamesWhichRateGreaterThanTen" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.extractTest.getCount" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.extractTest.getValueWithANameGood" />
       </list>
     </recent_temporary>
   </component>
@@ -805,35 +519,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="extractTest_getValueWithANameGood - 2017.09.12 at 12h 08m 29s.xml">
-      <configuration name="extractTest.getValueWithANameGood" configurationId="JUnit" />
+    <history-entry file="extractTest_getTheNamesGreaterThanTen - 2017.09.12 at 15h 08m 30s.xml">
+      <configuration name="extractTest.getTheNamesGreaterThanTen" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="extractTest_getValueWithANameGood - 2017.09.12 at 12h 08m 43s.xml">
-      <configuration name="extractTest.getValueWithANameGood" configurationId="JUnit" />
+    <history-entry file="extractTest_getTheNamesGreaterThanTen - 2017.09.12 at 15h 10m 21s.xml">
+      <configuration name="extractTest.getTheNamesGreaterThanTen" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="extractTest_getValueWithAnName - 2017.09.12 at 10h 46m 02s.xml">
-      <configuration name="extractTest.getValueWithAnName" configurationId="JUnit" />
+    <history-entry file="extractTest_getTheNamesGreaterThanTen - 2017.09.12 at 15h 11m 15s.xml">
+      <configuration name="extractTest.getTheNamesGreaterThanTen" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="extractTest_getValueWithAnName - 2017.09.12 at 10h 46m 42s.xml">
-      <configuration name="extractTest.getValueWithAnName" configurationId="JUnit" />
+    <history-entry file="extractTest_getTheNamesGreaterThanTen - 2017.09.12 at 15h 12m 00s.xml">
+      <configuration name="extractTest.getTheNamesGreaterThanTen" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="extractTest_getValueWithAnName - 2017.09.12 at 10h 48m 59s.xml">
-      <configuration name="extractTest.getValueWithAnName" configurationId="JUnit" />
+    <history-entry file="extractTest_getTheNamesGreaterThanTen - 2017.09.12 at 15h 12m 20s.xml">
+      <configuration name="extractTest.getTheNamesGreaterThanTen" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="extractTest_getValueWithAnName - 2017.09.12 at 10h 53m 26s.xml">
-      <configuration name="extractTest.getValueWithAnName" configurationId="JUnit" />
+    <history-entry file="extractTest_getTheNamesGreaterThanTen - 2017.09.12 at 15h 12m 41s.xml">
+      <configuration name="extractTest.getTheNamesGreaterThanTen" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="extractTest_getValueWithAnName - 2017.09.12 at 10h 53m 57s.xml">
-      <configuration name="extractTest.getValueWithAnName" configurationId="JUnit" />
+    <history-entry file="extractTest_getTheNamesGreaterThanTen - 2017.09.12 at 15h 13m 11s.xml">
+      <configuration name="extractTest.getTheNamesGreaterThanTen" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="extractTest_getValueWithAnName - 2017.09.12 at 12h 07m 11s.xml">
-      <configuration name="extractTest.getValueWithAnName" configurationId="JUnit" />
+    <history-entry file="extractTest_getTheNamesGreaterThanTen - 2017.09.12 at 15h 13m 53s.xml">
+      <configuration name="extractTest.getTheNamesGreaterThanTen" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="extractTest_getValueWithAnName - 2017.09.12 at 12h 07m 29s.xml">
-      <configuration name="extractTest.getValueWithAnName" configurationId="JUnit" />
+    <history-entry file="extractTest_getTheNamesGreaterThanTen - 2017.09.12 at 15h 14m 37s.xml">
+      <configuration name="extractTest.getTheNamesGreaterThanTen" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="extractTest_getValueWithAnName - 2017.09.12 at 12h 07m 52s.xml">
-      <configuration name="extractTest.getValueWithAnName" configurationId="JUnit" />
+    <history-entry file="extractTest_getTheNamesGreaterThanTen - 2017.09.12 at 15h 16m 11s.xml">
+      <configuration name="extractTest.getTheNamesGreaterThanTen" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -850,7 +564,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30959752" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.49071208" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32198143" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -861,7 +575,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6037152" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51702785" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -910,14 +624,28 @@
           </properties>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/studentExtractJson/extractTest.java</url>
+          <line>132</line>
+          <properties class="studentExtractJson.extractTest" method="getTheNamesGreaterThanTen">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/studentTests/studentPostTest.java</url>
           <line>65</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/studentExtractJson/extractTest.java</url>
+          <line>144</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="JUnit">
@@ -931,91 +659,42 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/studentLogging/loggingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/studentTests/studentPutTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/studentTests/studentDeleteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/studentBaseTest/baseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <marker date="1505207318253" expanded="true" signature="85210:85331" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85210:85349" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85210:85362" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85210:85377" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85233:85314" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85412:87049" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85425:87034" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85476:85741" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85495:85726" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85528:85706" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85568:85672" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85589:85650" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85784:86049" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85803:86034" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85836:86014" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85876:85980" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85897:85958" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86084:86390" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86103:86375" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86177:86355" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86217:86321" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86238:86299" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86442:86707" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86461:86692" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86494:86672" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86534:86638" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86555:86616" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86755:87020" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86774:87005" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86807:86985" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86847:86951" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86868:86929" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82228:82245" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82228:82263" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82228:82276" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82228:82291" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82326:83963" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82339:83948" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82390:82655" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82409:82640" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82442:82620" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82482:82586" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82503:82564" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82698:82963" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82717:82948" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82750:82928" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82790:82894" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82811:82872" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82998:83304" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83017:83289" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83091:83269" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83131:83235" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83152:83213" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83356:83621" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83375:83606" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83408:83586" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83448:83552" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83469:83530" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83669:83934" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83688:83919" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83721:83899" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83761:83865" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83782:83843" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1050,7 +729,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="680">
           <caret line="42" column="45" lean-forward="true" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1084,7 +765,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1092,7 +775,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1116,7 +801,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="920">
           <caret line="54" column="29" lean-forward="false" selection-start-line="54" selection-start-column="29" selection-end-line="54" selection-end-column="29" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1142,7 +829,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
           <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1150,7 +839,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1167,38 +858,37 @@
         <state relative-caret-position="340">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding>
-            <marker date="1505207318253" expanded="true" signature="85210:85331" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85210:85349" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85210:85362" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85210:85377" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85233:85314" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85412:87049" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85425:87034" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85476:85741" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85495:85726" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85528:85706" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85568:85672" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85589:85650" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85784:86049" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85803:86034" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85836:86014" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85876:85980" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85897:85958" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86084:86390" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86103:86375" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86177:86355" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86217:86321" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86238:86299" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86442:86707" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86461:86692" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86494:86672" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86534:86638" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86555:86616" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86755:87020" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86774:87005" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86807:86985" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86847:86951" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86868:86929" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82228:82245" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82228:82263" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82228:82276" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82228:82291" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82326:83963" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82339:83948" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82390:82655" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82409:82640" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82442:82620" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82482:82586" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82503:82564" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82698:82963" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82717:82948" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82750:82928" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82790:82894" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82811:82872" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82998:83304" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83017:83289" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83091:83269" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83131:83235" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83152:83213" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83356:83621" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83375:83606" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83408:83586" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83448:83552" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83469:83530" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83669:83934" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83688:83919" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83721:83899" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83761:83865" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83782:83843" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1246,7 +936,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1254,7 +946,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1271,38 +965,37 @@
         <state relative-caret-position="360">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding>
-            <marker date="1505207318253" expanded="true" signature="85210:85331" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85210:85349" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85210:85362" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85210:85377" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85233:85314" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85412:87049" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85425:87034" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85476:85741" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85495:85726" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85528:85706" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85568:85672" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85589:85650" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85784:86049" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85803:86034" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85836:86014" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85876:85980" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85897:85958" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86084:86390" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86103:86375" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86177:86355" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86217:86321" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86238:86299" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86442:86707" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86461:86692" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86494:86672" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86534:86638" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86555:86616" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86755:87020" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86774:87005" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86807:86985" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86847:86951" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86868:86929" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82228:82245" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82228:82263" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82228:82276" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82228:82291" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82326:83963" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82339:83948" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82390:82655" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82409:82640" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82442:82620" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82482:82586" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82503:82564" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82698:82963" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82717:82948" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82750:82928" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82790:82894" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82811:82872" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82998:83304" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83017:83289" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83091:83269" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83131:83235" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83152:83213" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83356:83621" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83375:83606" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83408:83586" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83448:83552" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83469:83530" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83669:83934" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83688:83919" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83721:83899" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83761:83865" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83782:83843" ph="..." />
           </folding>
         </state>
       </provider>
@@ -1366,7 +1059,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/studentTests/studentDeleteTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <marker date="1505218587661" expanded="true" signature="82228:82245" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82228:82263" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82228:82276" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82228:82291" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82326:83963" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82339:83948" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82390:82655" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82409:82640" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82442:82620" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82482:82586" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82503:82564" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82698:82963" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82717:82948" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82750:82928" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82790:82894" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82811:82872" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="82998:83304" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83017:83289" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83091:83269" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83131:83235" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83152:83213" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83356:83621" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83375:83606" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83408:83586" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83448:83552" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83469:83530" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83669:83934" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83688:83919" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83721:83899" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83761:83865" ph="..." />
+            <marker date="1505218587661" expanded="true" signature="83782:83843" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1378,91 +1123,102 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/studentTests/studentGetTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/studentTests/studentDeleteTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="21" column="1" lean-forward="false" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/studentTests/studentPostTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="59" column="0" lean-forward="false" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="820">
-          <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+        <state relative-caret-position="-827">
+          <caret line="3" column="12" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/studentLogging/loggingTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
+        <state relative-caret-position="840">
           <caret line="42" column="45" lean-forward="false" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/studentTests/studentGetTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-320">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state relative-caret-position="340">
+          <caret line="41" column="19" lean-forward="false" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/jayway/restassured/rest-assured/2.9.0/rest-assured-2.9.0.jar!/com/jayway/restassured/RestAssured.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
+          <caret line="468" column="0" lean-forward="false" selection-start-line="468" selection-start-column="0" selection-end-line="468" selection-end-column="0" />
           <folding>
-            <marker date="1505207318253" expanded="true" signature="85210:85331" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85210:85349" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85210:85362" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85210:85377" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85233:85314" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85412:87049" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85425:87034" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85476:85741" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85495:85726" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85528:85706" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85568:85672" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85589:85650" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85784:86049" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85803:86034" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85836:86014" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85876:85980" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="85897:85958" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86084:86390" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86103:86375" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86177:86355" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86217:86321" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86238:86299" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86442:86707" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86461:86692" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86494:86672" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86534:86638" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86555:86616" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86755:87020" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86774:87005" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86807:86985" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86847:86951" ph="..." />
-            <marker date="1505207318253" expanded="true" signature="86868:86929" ph="..." />
+            <element signature="e#7835#7836#0" expanded="true" />
+            <element signature="e#7909#7910#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/statements/RunBefores.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runner/JUnitCore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="141" column="0" lean-forward="false" selection-start-line="141" selection-start-column="0" selection-end-line="141" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/runners/ParentRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="371" column="0" lean-forward="true" selection-start-line="371" selection-start-column="0" selection-end-line="371" selection-end-column="0" />
+          <folding>
+            <element signature="e#2922#2923#0" expanded="false" />
+            <element signature="e#2966#2967#0" expanded="false" />
+            <element signature="e#10310#10449#0" expanded="false" />
+            <element signature="e#10448#10449#0" expanded="false" />
+            <element signature="e#11040#11204#0" expanded="false" />
+            <element signature="e#11203#11204#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/studentExtractJson/extractTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="123" column="0" lean-forward="true" selection-start-line="123" selection-start-column="0" selection-end-line="123" selection-end-column="0" />
+        <state relative-caret-position="76">
+          <caret line="129" column="5" lean-forward="true" selection-start-line="129" selection-start-column="5" selection-end-line="129" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

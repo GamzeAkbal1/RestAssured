@@ -101,7 +101,7 @@ public class extractTest {
     }
 
     @Test
-    public void getValueWithAnName()
+    public void getValueWithAName()
     {
         List<String> values = given().param("q","select * from yahoo.finance.xchange where pair in (\"EURUSD\",\"GBPUSD\")")
                 .param("format","json")

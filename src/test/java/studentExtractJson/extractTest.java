@@ -2,16 +2,13 @@ package studentExtractJson;
 
 import com.jayway.restassured.RestAssured;
 import org.hamcrest.CoreMatchers;
-import org.hamcrest.Matchers;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import static com.jayway.restassured.RestAssured.given;
-import static com.jayway.restassured.RestAssured.when;
 import static org.hamcrest.Matchers.*;
 import static org.hamcrest.Matchers.contains;
 import static org.hamcrest.Matchers.allOf;
@@ -103,5 +100,19 @@ public class extractTest {
         Assert.assertThat("EUR/USD , GBP/USD",is(CoreMatchers.containsString(nameList.get(0)+" , "+nameList.get(1))));
     }
 
+    @Test
+    public void getValueWithAnName()
+    {
+        List<String> values = given().param("q","select * from yahoo.finance.xchange where pair in (\"EURUSD\",\"GBPUSD\")")
+                .param("format","json")
+                .param("env","store://datatables.org/alltableswithkeys")
+                .when().get("/yql").then().extract().path("query.results.rate.findAll{it.Name=='EUR/USD'}");
+
+        System.out.println("================== All EUR/USD Values ==================");
+        System.out.println(values);
+        String[] valueList = values.toString().split(",");
+        Assert.assertThat(" id=EURUSD", equalToIgnoringCase(valueList[3]));
+
+    }
 
 }

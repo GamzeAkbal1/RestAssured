@@ -101,7 +101,7 @@ public class extractTest {
     }
 
     @Test
-    public void getValueWithAName()
+    public void getValueWithANameBad()
     {
         List<String> values = given().param("q","select * from yahoo.finance.xchange where pair in (\"EURUSD\",\"GBPUSD\")")
                 .param("format","json")
@@ -112,6 +112,20 @@ public class extractTest {
         System.out.println(values);
         String[] valueList = values.toString().split(",");
         Assert.assertThat(" id=EURUSD", equalToIgnoringCase(valueList[3]));
+
+    }
+    @Test
+    public void getValueWithANameGood()
+    {
+        List<String> values = given().param("q","select * from yahoo.finance.xchange where pair in (\"EURUSD\",\"GBPUSD\")")
+                .param("format","json")
+                .param("env","store://datatables.org/alltableswithkeys")
+                .when().get("/yql").then().extract().path("query.results.rate.findAll{it.Name=='EUR/USD'}.Name");
+
+        System.out.println("================== All EUR/USD Values ==================");
+        System.out.println(values);
+
+        Assert.assertThat("EUR/USD", equalToIgnoringCase(values.get(0).toString()));
 
     }
 

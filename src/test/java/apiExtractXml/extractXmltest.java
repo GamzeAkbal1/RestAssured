@@ -37,4 +37,16 @@ public class extractXmltest {
 
     }
 
+    @Test
+    public void getLang(){
+
+        String lang = given().param("q","SELECT * FROM yahoo.finance.xchange WHERE pair in (\"EURUSD\",\"GBPUSD\")")
+                .param("format","xml")
+                .param("env","store://datatables.org/alltableswithkeys")
+                .when().get("/yql").then().extract().path("query.@yahoo:lang");
+
+        Assert.assertThat("en-US",equalToIgnoringCase(lang));
+
+    }
+
 }

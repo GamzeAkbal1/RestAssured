@@ -167,4 +167,18 @@ public class extractTest {
         System.out.println(values);
     }
 
+    @Test
+    public void getValueEndsWithSd()
+    {
+        Response response = given().param("q","SELECT * FROM yahoo.finance.xchange WHERE pair in (\"EURUSD\",\"GBPUSD\")")
+                .param("format","json")
+                .param("env","store://datatables.org/alltableswithkeys")
+                .when().get("/yql");
+        response.then().extract().path("query.results.rate.findAll{it.id==~/.*SD/}");
+        System.out.println(response.prettyPrint());
+
+
+
+    }
+
 }

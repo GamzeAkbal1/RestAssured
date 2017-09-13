@@ -142,4 +142,18 @@ public class extractTest {
         Assert.assertThat("GBP/USD",equalToIgnoringCase(nameList.get(0)));
     }
 
+    @Test
+    public void getRateWithSpecName()
+    {
+        Response response = given().param("q","SELECT * FROM yahoo.finance.xchange WHERE pair in (\"EURUSD\",\"GBPUSD\")")
+                .param("format","json")
+                .param("env","store://datatables.org/alltableswithkeys")
+                .when().get("/yql");
+
+        response.then().extract().path("query.results.rate.findAll{it.Name=='GBP/USD'}.Rate");
+        System.out.println(response.prettyPrint());
+
+
+    }
+
 }

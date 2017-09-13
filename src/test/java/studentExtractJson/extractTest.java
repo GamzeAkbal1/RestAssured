@@ -156,4 +156,15 @@ public class extractTest {
 
     }
 
+    @Test
+    public void getValueStartsWithEur()
+    {
+        Response response = given().param("q","SELECT * FROM yahoo.finance.xchange WHERE pair in (\"EURUSD\",\"GBPUSD\")")
+                .param("format","json")
+                .param("env","store://datatables.org/alltableswithkeys")
+                .when().get("/yql");
+        List <String> values = response.then().extract().path("query.results.rate.findAll{it.id==~/EUR.*/}");
+        System.out.println(values);
+    }
+
 }

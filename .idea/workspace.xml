@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ff9f8ba-b342-4c16-a9d9-27a2090b1275" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/apiExtractXml/extractXmltest.java" afterPath="$PROJECT_DIR$/src/test/java/apiExtractXml/extractXmltest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -64,8 +63,8 @@
       <file leaf-file-name="extractXmltest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/apiExtractXml/extractXmltest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="54" column="19" lean-forward="false" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+            <state relative-caret-position="216">
+              <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -319,33 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.extractXmltest.getNameFromFirst">
-    <configuration default="false" name="extractTest.getValueEndsWithSd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="studentExtractJson.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="StudentAppRestAssure" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="studentExtractJson" />
-      <option name="MAIN_CLASS_NAME" value="studentExtractJson.extractTest" />
-      <option name="METHOD_NAME" value="getValueEndsWithSd" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.extractXmltest.getAllRates">
     <configuration default="false" name="extractXmltest.Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -437,6 +410,32 @@
       <option name="PACKAGE_NAME" value="apiExtractXml" />
       <option name="MAIN_CLASS_NAME" value="apiExtractXml.extractXmltest" />
       <option name="METHOD_NAME" value="getNameFromFirst" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="extractXmltest.getAllRates" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="apiExtractXml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="StudentAppRestAssure" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="apiExtractXml" />
+      <option name="MAIN_CLASS_NAME" value="apiExtractXml.extractXmltest" />
+      <option name="METHOD_NAME" value="getAllRates" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -655,19 +654,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.extractTest.getValueEndsWithSd" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.extractXmltest.Test1" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.extractXmltest.getCount" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.extractXmltest.getLang" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.extractXmltest.getNameFromFirst" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.extractXmltest.Test1" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.extractXmltest.getCount" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.extractXmltest.getLang" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.extractXmltest.getNameFromFirst" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.extractXmltest.getAllRates" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.extractXmltest.getNameFromFirst" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.extractXmltest.getLang" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.extractXmltest.getCount" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.extractXmltest.Test1" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.extractTest.getValueEndsWithSd" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.extractXmltest.getAllRates" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.extractXmltest.getNameFromFirst" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.extractXmltest.getLang" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.extractXmltest.getCount" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.extractXmltest.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -688,20 +687,17 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="extractTest_getValueStartsWithEur - 2017.09.13 at 11h 19m 36s.xml">
-      <configuration name="extractTest.getValueStartsWithEur" configurationId="JUnit" />
+    <history-entry file="extractXmltest_getAllRates - 2017.09.14 at 11h 19m 31s.xml">
+      <configuration name="extractXmltest.getAllRates" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="extractXmltest_Test1 - 2017.09.13 at 14h 15m 50s.xml">
-      <configuration name="extractXmltest.Test1" configurationId="JUnit" />
+    <history-entry file="extractXmltest_getAllRates - 2017.09.14 at 11h 20m 30s.xml">
+      <configuration name="extractXmltest.getAllRates" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="extractXmltest_Test1 - 2017.09.13 at 14h 16m 04s.xml">
-      <configuration name="extractXmltest.Test1" configurationId="JUnit" />
+    <history-entry file="extractXmltest_getAllRates - 2017.09.14 at 11h 21m 11s.xml">
+      <configuration name="extractXmltest.getAllRates" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="extractXmltest_Test1 - 2017.09.13 at 14h 27m 06s.xml">
-      <configuration name="extractXmltest.Test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="extractXmltest_getCount - 2017.09.13 at 14h 27m 18s.xml">
-      <configuration name="extractXmltest.getCount" configurationId="JUnit" />
+    <history-entry file="extractXmltest_getAllRates - 2017.09.14 at 11h 21m 38s.xml">
+      <configuration name="extractXmltest.getAllRates" configurationId="JUnit" />
     </history-entry>
     <history-entry file="extractXmltest_getCount - 2017.09.13 at 14h 28m 25s.xml">
       <configuration name="extractXmltest.getCount" configurationId="JUnit" />
@@ -716,6 +712,9 @@
       <configuration name="extractXmltest.getNameFromFirst" configurationId="JUnit" />
     </history-entry>
     <history-entry file="extractXmltest_getNameFromFirst - 2017.09.14 at 11h 10m 40s.xml">
+      <configuration name="extractXmltest.getNameFromFirst" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="extractXmltest_getNameFromFirst - 2017.09.14 at 11h 11m 03s.xml">
       <configuration name="extractXmltest.getNameFromFirst" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -1215,8 +1214,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/apiExtractXml/extractXmltest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="54" column="19" lean-forward="false" selection-start-line="54" selection-start-column="19" selection-end-line="54" selection-end-column="19" />
+        <state relative-caret-position="216">
+          <caret line="71" column="5" lean-forward="true" selection-start-line="71" selection-start-column="5" selection-end-line="71" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

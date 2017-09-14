@@ -61,4 +61,14 @@ public class extractXmltest {
 
     }
 
+    @Test
+    public void getAllRates(){
+
+        String rates = given().param("q","SELECT * FROM yahoo.finance.xchange WHERE pair in (\"EURUSD\",\"GBPUSD\")")
+                .param("format","xml")
+                .param("env","store://datatables.org/alltableswithkeys")
+                .when().get("/yql").andReturn().prettyPrint();
+
+    }
+
 }

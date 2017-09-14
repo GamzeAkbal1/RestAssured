@@ -63,8 +63,8 @@
       <file leaf-file-name="extractXmltest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/apiExtractXml/extractXmltest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+            <state relative-caret-position="376">
+              <caret line="111" column="34" lean-forward="true" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -318,33 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.extractXmltest.getSize">
-    <configuration default="false" name="extractXmltest.getLang" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="apiExtractXml.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="StudentAppRestAssure" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="apiExtractXml" />
-      <option name="MAIN_CLASS_NAME" value="apiExtractXml.extractXmltest" />
-      <option name="METHOD_NAME" value="getLang" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.extractXmltest.getAllNamesS">
     <configuration default="false" name="extractXmltest.getNameFromFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -436,6 +410,32 @@
       <option name="PACKAGE_NAME" value="apiExtractXml" />
       <option name="MAIN_CLASS_NAME" value="apiExtractXml.extractXmltest" />
       <option name="METHOD_NAME" value="getSize" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="extractXmltest.getAllNamesS" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="apiExtractXml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="StudentAppRestAssure" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="apiExtractXml" />
+      <option name="MAIN_CLASS_NAME" value="apiExtractXml.extractXmltest" />
+      <option name="METHOD_NAME" value="getAllNamesS" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -654,19 +654,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.extractXmltest.getLang" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.extractXmltest.getNameFromFirst" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.extractXmltest.getAllRates" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.extractXmltest.getAllRatesW" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.extractXmltest.getSize" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.extractXmltest.getNameFromFirst" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.extractXmltest.getAllRates" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.extractXmltest.getAllRatesW" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.extractXmltest.getSize" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.extractXmltest.getAllNamesS" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.extractXmltest.getSize" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.extractXmltest.getAllRatesW" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.extractXmltest.getAllRates" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.extractXmltest.getNameFromFirst" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.extractXmltest.getLang" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.extractXmltest.getAllNamesS" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.extractXmltest.getSize" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.extractXmltest.getAllRatesW" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.extractXmltest.getAllRates" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.extractXmltest.getNameFromFirst" />
       </list>
     </recent_temporary>
   </component>
@@ -687,11 +687,8 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="extractXmltest_getAllRates - 2017.09.14 at 11h 19m 31s.xml">
-      <configuration name="extractXmltest.getAllRates" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="extractXmltest_getAllRates - 2017.09.14 at 11h 20m 30s.xml">
-      <configuration name="extractXmltest.getAllRates" configurationId="JUnit" />
+    <history-entry file="extractXmltest_getAllNamesS - 2017.09.14 at 12h 06m 19s.xml">
+      <configuration name="extractXmltest.getAllNamesS" configurationId="JUnit" />
     </history-entry>
     <history-entry file="extractXmltest_getAllRates - 2017.09.14 at 11h 21m 11s.xml">
       <configuration name="extractXmltest.getAllRates" configurationId="JUnit" />
@@ -717,10 +714,12 @@
     <history-entry file="extractXmltest_getSize - 2017.09.14 at 11h 51m 26s.xml">
       <configuration name="extractXmltest.getSize" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="extractXmltest_getSize - 2017.09.14 at 11h 52m 10s.xml">
+      <configuration name="extractXmltest.getSize" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="64" y="-11" width="1303" height="780" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -732,9 +731,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37151703" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37151703" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23839009" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.59287924" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2804781" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1214,8 +1213,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/apiExtractXml/extractXmltest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="102" column="0" lean-forward="true" selection-start-line="102" selection-start-column="0" selection-end-line="102" selection-end-column="0" />
+        <state relative-caret-position="376">
+          <caret line="111" column="34" lean-forward="true" selection-start-line="111" selection-start-column="34" selection-end-line="111" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -98,5 +98,18 @@ public class extractXmltest {
         Assert.assertThat(2,is(size));
     }
 
+    @Test
+    public void getAllNamesS(){
+
+
+        String names = given().param("q","SELECT * FROM yahoo.finance.xchange WHERE pair in (\"EURUSD\",\"GBPUSD\")")
+                .param("format","xml")
+                .param("env","store://datatables.org/alltableswithkeys")
+                .when().get("/yql").andReturn().asString();
+
+        String nameS = with(names).get("query.results.rate.findAll{it.Name}.Name").toString();
+
+        System.out.println(nameS);
+    }
 
 }

@@ -5,9 +5,11 @@ import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
-
+import static io.restassured.RestAssured.*;
 import static com.jayway.restassured.RestAssured.given;
+import static org.codehaus.groovy.tools.shell.util.Logger.io;
 import static org.hamcrest.Matchers.equalToIgnoringCase;
+import static io.restassured.path.xml.XmlPath.*;
 import static org.hamcrest.Matchers.is;
 
 /**
@@ -70,5 +72,20 @@ public class extractXmltest {
                 .when().get("/yql").andReturn().prettyPrint();
 
     }
+
+    @Test
+    public void getAllRatesW(){
+
+        String rates = given().param("q","SELECT * FROM yahoo.finance.xchange WHERE pair in (\"EURUSD\",\"GBPUSD\")")
+                .param("format","xml")
+                .param("env","store://datatables.org/alltableswithkeys")
+                .when().get("/yql").andReturn().asString();
+
+        String valuesUnderRate = with(rates).get("query.results.rate").toString();
+
+        System.out.println(valuesUnderRate);
+
+    }
+
 
 }

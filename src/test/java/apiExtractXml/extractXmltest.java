@@ -112,4 +112,15 @@ public class extractXmltest {
         System.out.println(nameS);
     }
 
+    @Test
+    public void getAllInfoWıthName(){
+
+        String info = given().param("q","SELECT * FROM yahoo.finance.xchange WHERE pair in (\"EURUSD\",\"GBPUSD\")")
+                .param("format","xml")
+                .param("env","store://datatables.org/alltableswithkeys")
+                .when().get("/yql").andReturn().asString();
+
+        String infoS = with(info).get("query.results.rate.findAll{it.Name=='EUR/USD'}").toString();
+        System.out.println(infoS);
+    }
 }

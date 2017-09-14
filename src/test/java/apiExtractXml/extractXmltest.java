@@ -87,5 +87,16 @@ public class extractXmltest {
 
     }
 
+    @Test
+    public void getSize()
+    {
+        int size = given().param("q","SELECT * FROM yahoo.finance.xchange WHERE pair in (\"EURUSD\",\"GBPUSD\")")
+                .param("format","xml")
+                .param("env","store://datatables.org/alltableswithkeys")
+                .when().get("/yql").then().extract().path("query.results.rate.size()");
+
+        Assert.assertThat(2,is(size));
+    }
+
 
 }

@@ -49,4 +49,16 @@ public class extractXmltest {
 
     }
 
+    @Test
+    public void getNameFromFirst()
+    {
+        String name = given().param("q","SELECT * FROM yahoo.finance.xchange WHERE pair in (\"EURUSD\",\"GBPUSD\")")
+                .param("format","xml")
+                .param("env","store://datatables.org/alltableswithkeys")
+                .when().get("/yql").then().extract().path("query.results.rate[0].Name");
+
+        Assert.assertThat("EUR/USD",equalToIgnoringCase(name));
+
+    }
+
 }

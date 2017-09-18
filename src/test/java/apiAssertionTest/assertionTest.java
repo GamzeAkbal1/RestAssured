@@ -65,4 +65,20 @@ public class assertionTest {
                 .when().get("yql")
                 .then().body("query.results.rate.Name",hasItems("EUR/USD","GBP/USD"));
     }
+
+    @Test
+    public void checkCountGreater(){
+
+        given().parameters(params)
+                .when().get("/yql")
+                .then().body("query.count",greaterThan(1));
+    }
+
+    @Test
+    public  void checkCountLess(){
+
+        given().parameters(params)
+                .when().get("/yql")
+                .then().body("query.count",lessThan(4));
+    }
 }

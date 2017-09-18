@@ -34,6 +34,12 @@ public class assertionTest {
     }
 
     @Test
+    public static void tearDown(){
+
+        RestAssured.reset();
+    }
+
+    @Test
     public void checkCount()
     {
          given().parameters(params)

@@ -41,8 +41,8 @@
       <file leaf-file-name="assertionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/apiAssertionTest/assertionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="90" column="29" lean-forward="true" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+            <state relative-caret-position="266">
+              <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -669,8 +669,8 @@
     <history-entry file="assertionTest_checkNameIsExistInNameCollection - 2017.09.18 at 10h 10m 14s.xml">
       <configuration name="assertionTest.checkNameIsExistInNameCollection" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="extractXmltest_getSize - 2017.09.14 at 11h 51m 05s.xml">
-      <configuration name="extractXmltest.getSize" configurationId="JUnit" />
+    <history-entry file="assertionTest_settingRoot - 2017.09.18 at 11h 51m 47s.xml">
+      <configuration name="assertionTest.settingRoot" configurationId="JUnit" />
     </history-entry>
     <history-entry file="extractXmltest_getSize - 2017.09.14 at 11h 51m 26s.xml">
       <configuration name="extractXmltest.getSize" configurationId="JUnit" />
@@ -1175,8 +1175,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/apiAssertionTest/assertionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="90" column="29" lean-forward="true" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+        <state relative-caret-position="266">
+          <caret line="42" column="28" lean-forward="true" selection-start-line="42" selection-start-column="28" selection-end-line="42" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

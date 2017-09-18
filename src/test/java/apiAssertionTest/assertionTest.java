@@ -58,4 +58,11 @@ public class assertionTest {
                 .then().body("query.results.rate.Name",hasItem("EUR/USD"));
     }
 
+    @Test
+    public void checkMultipleName(){
+
+        given().parameters(params)
+                .when().get("yql")
+                .then().body("query.results.rate.Name",hasItems("EUR/USD","GBP/USD"));
+    }
 }

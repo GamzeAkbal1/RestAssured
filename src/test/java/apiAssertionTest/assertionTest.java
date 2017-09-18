@@ -42,4 +42,14 @@ public class assertionTest {
                 .when().get("/yql")
                 .then().body("query.count",is(2));
     }
+
+    @Test
+    public  void checkName()
+    {
+        given().parameters(params)
+                .when().get("yql")
+                .then().body("query.results.rate[1].Name",equalTo("GBP/USD"));
+
+
+    }
 }

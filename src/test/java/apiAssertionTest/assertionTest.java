@@ -12,10 +12,8 @@ import java.util.HashMap;
 import static io.restassured.RestAssured.*;
 import static com.jayway.restassured.RestAssured.given;
 import static org.codehaus.groovy.tools.shell.util.Logger.io;
-import static org.hamcrest.Matchers.equalTo;
-import static org.hamcrest.Matchers.equalToIgnoringCase;
 import static io.restassured.path.xml.XmlPath.*;
-import static org.hamcrest.Matchers.is;
+import static org.hamcrest.Matchers.*;
 
 /**
  * Created by xernea on 14.09.2017.
@@ -50,6 +48,14 @@ public class assertionTest {
                 .when().get("yql")
                 .then().body("query.results.rate[1].Name",equalTo("GBP/USD"));
 
-
     }
+
+    @Test
+    public void checkNameIsExistInNameCollection(){
+
+        given().parameters(params)
+                .when().get("yql")
+                .then().body("query.results.rate.Name",hasItem("EUR/USD"));
+    }
+
 }

@@ -41,8 +41,8 @@
       <file leaf-file-name="assertionTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/apiAssertionTest/assertionTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="81" column="56" lean-forward="false" selection-start-line="81" selection-start-column="56" selection-end-line="81" selection-end-column="56" />
+            <state relative-caret-position="226">
+              <caret line="90" column="29" lean-forward="true" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -279,33 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.assertionTest">
-    <configuration default="false" name="assertionTest.checkName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="apiAssertionTest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="StudentAppRestAssure" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="apiAssertionTest" />
-      <option name="MAIN_CLASS_NAME" value="apiAssertionTest.assertionTest" />
-      <option name="METHOD_NAME" value="checkName" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.assertionTest.settingRoot">
     <configuration default="false" name="assertionTest.checkNameIsExistInNameCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -398,6 +372,32 @@
       <option name="MAIN_CLASS_NAME" value="apiAssertionTest.assertionTest" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="assertionTest.settingRoot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="apiAssertionTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="StudentAppRestAssure" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="apiAssertionTest" />
+      <option name="MAIN_CLASS_NAME" value="apiAssertionTest.assertionTest" />
+      <option name="METHOD_NAME" value="settingRoot" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
@@ -615,19 +615,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.assertionTest.checkName" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.assertionTest.checkNameIsExistInNameCollection" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.assertionTest.checkMultipleName" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.assertionTest.checkCountGreater" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.assertionTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.assertionTest.checkNameIsExistInNameCollection" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.assertionTest.checkMultipleName" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.assertionTest.checkCountGreater" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.assertionTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.assertionTest.settingRoot" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.assertionTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.assertionTest.checkCountGreater" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.assertionTest.checkMultipleName" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.assertionTest.checkNameIsExistInNameCollection" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.assertionTest.checkName" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.assertionTest.settingRoot" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.assertionTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.assertionTest.checkCountGreater" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.assertionTest.checkMultipleName" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.assertionTest.checkNameIsExistInNameCollection" />
       </list>
     </recent_temporary>
   </component>
@@ -648,6 +648,9 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="assertionTest - 2017.09.18 at 11h 00m 06s.xml">
+      <configuration name="assertionTest" configurationId="JUnit" />
+    </history-entry>
     <history-entry file="assertionTest_checkCountGreater - 2017.09.18 at 10h 57m 47s.xml">
       <configuration name="assertionTest.checkCountGreater" configurationId="JUnit" />
     </history-entry>
@@ -666,9 +669,6 @@
     <history-entry file="assertionTest_checkNameIsExistInNameCollection - 2017.09.18 at 10h 10m 14s.xml">
       <configuration name="assertionTest.checkNameIsExistInNameCollection" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="extractXmltest_getAllRatesW - 2017.09.14 at 11h 43m 09s.xml">
-      <configuration name="extractXmltest.getAllRatesW" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="extractXmltest_getSize - 2017.09.14 at 11h 51m 05s.xml">
       <configuration name="extractXmltest.getSize" configurationId="JUnit" />
     </history-entry>
@@ -686,7 +686,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32817337" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -695,7 +695,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37151703" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37770897" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37770897" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31155378" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1175,8 +1175,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/apiAssertionTest/assertionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="81" column="56" lean-forward="false" selection-start-line="81" selection-start-column="56" selection-end-line="81" selection-end-column="56" />
+        <state relative-caret-position="226">
+          <caret line="90" column="29" lean-forward="true" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

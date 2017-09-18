@@ -81,4 +81,17 @@ public class assertionTest {
                 .when().get("/yql")
                 .then().body("query.count",lessThan(4));
     }
+
+    @Test
+    public void settingRoot(){
+
+        given().parameters(params)
+                .when().get("yql")
+                .then().root("query.results.rate")
+                .body("Name",hasItems("EUR/USD"))
+                .root("query")
+                .body("count",equalTo(2));
+
+
+    }
 }

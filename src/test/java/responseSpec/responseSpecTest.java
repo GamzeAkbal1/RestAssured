@@ -26,7 +26,7 @@ public class responseSpecTest {
     static RequestSpecification reqSpec;
     static ResponseSpecBuilder respBuilder;
     static ResponseSpecification respSpec;
-
+    static Map<String,Object> responseHeaders = new HashMap<String, Object>();
     @BeforeClass
     public static void Init(){
 
@@ -39,6 +39,8 @@ public class responseSpecTest {
         reqBuilder.addParam("format","json");
         reqSpec = reqBuilder.build();
         respSpec = respBuilder.build();
+        responseHeaders.put("Content-Type","application/json;charset=utf-8");
+        responseHeaders.put("Server","ATS");
 
 
 
@@ -50,8 +52,11 @@ public class responseSpecTest {
         given().spec(reqSpec)
                 .when().get("/yql")
                 .then()
+                .log().headers()
                 .spec(respSpec.expect().body("query.count",equalTo(2)))
                 .spec(respSpec.statusCode(200));
+
+
 
                 //spec(respSpec).log().body().statusCode(200);
 
@@ -59,6 +64,9 @@ public class responseSpecTest {
 
     @Test
     public void checkHeaders(){
+
+        given().spec(reqSpec).when().get("/yql").then()
+                .spec(respSpec.expect().headers(responseHeaders));
 
 
     }

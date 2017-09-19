@@ -37,12 +37,12 @@ public class requestSpecTest {
     }
 
     @Test
-    public void Test1(){
+    public void testOne(){
 
         given().spec((com.jayway.restassured.specification.RequestSpecification) rspec)
                 .log().all()
                 .when().get("/yql")
-                .then().statusCode(200);
+                .then().log().body().statusCode(200);
 
     }
 

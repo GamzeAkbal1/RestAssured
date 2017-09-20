@@ -19,6 +19,7 @@ import java.util.concurrent.TimeUnit;
 
 import static io.restassured.RestAssured.*;
 import static com.jayway.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.lessThan;
 import static org.hamcrest.core.IsEqual.equalTo;
 
 /**
@@ -44,6 +45,7 @@ public class responseTimeTest {
         respSpec = respBuilder.build();
         responseHeaders.put("Content-Type","application/json;charset=utf-8");
         responseHeaders.put("Server","ATS");
+        respBuilder.expectResponseTime(lessThan(5L),TimeUnit.SECONDS);
 
 
 
@@ -55,7 +57,7 @@ public class responseTimeTest {
         long time = given().spec(reqSpec)
                             .when().get("/yql").time();
 
-        System.out.print(time);
+        //System.out.print(time);
     }
 
     @Test
@@ -64,7 +66,7 @@ public class responseTimeTest {
         long time = given().spec(reqSpec)
                             .when().get("/yql").timeIn(TimeUnit.SECONDS);
 
-        System.out.print(time);
+       // System.out.print(time);
 
     }
 

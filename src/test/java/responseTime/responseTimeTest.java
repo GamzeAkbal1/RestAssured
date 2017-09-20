@@ -63,8 +63,9 @@ public class responseTimeTest {
     @Test
     public void getTimeDifferenceKind(){
 
-        long time = given().spec(reqSpec)
-                            .when().get("/yql").timeIn(TimeUnit.SECONDS);
+        given().spec(reqSpec)
+                            .when().get("/yql")
+                            .then().spec(respSpec);
 
        // System.out.print(time);
 

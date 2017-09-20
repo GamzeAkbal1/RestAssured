@@ -12,9 +12,11 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 import static io.restassured.RestAssured.*;
 import static com.jayway.restassured.RestAssured.given;
+import static org.hamcrest.Matchers.lessThan;
 import static org.hamcrest.core.IsEqual.equalTo;
 
 /**
@@ -41,6 +43,7 @@ public class responseSpecTest {
         respSpec = respBuilder.build();
         responseHeaders.put("Content-Type","application/json;charset=utf-8");
         responseHeaders.put("Server","ATS");
+        respBuilder.expectResponseTime(lessThan(5L), TimeUnit.SECONDS);
 
 
 

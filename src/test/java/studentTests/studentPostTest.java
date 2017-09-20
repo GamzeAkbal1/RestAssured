@@ -50,6 +50,11 @@ public class studentPostTest extends baseTest {
         student.setEmail("gakbal112@gmail.com");
         student.setProgramme("Tornacı");
         student.setCourses(courses);
+
+
+
+
+
         given().contentType("application/json")
                 .when()
                 .body(student)

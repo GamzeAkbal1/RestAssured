@@ -18,7 +18,7 @@ public class studentGetTest {
     {
         RestAssured.baseURI = "http://localhost";
         RestAssured.port = 8080;
-        RestAssured.basePath="/student";
+       // RestAssured.basePath="/student";
 
     }
 
@@ -36,10 +36,11 @@ public class studentGetTest {
 
     @Test
     public void getStudentInfo()
-    {
+    {   int id = 1;
         Response response = given()
                 .when()
-                .get("/1");
+                .get("/student/{id}",id);
+                //.get("/1");
                 response.then()
                         .statusCode(200);
 

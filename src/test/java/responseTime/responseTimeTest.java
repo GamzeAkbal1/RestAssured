@@ -15,6 +15,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 import java.util.HashMap;
 import java.util.Map;
+import java.util.concurrent.TimeUnit;
 
 import static io.restassured.RestAssured.*;
 import static com.jayway.restassured.RestAssured.given;
@@ -54,8 +55,17 @@ public class responseTimeTest {
         long time = given().spec(reqSpec)
                             .when().get("/yql").time();
 
+        System.out.print(time);
+    }
+
+    @Test
+    public void getTimeDifferenceKind(){
+
+        long time = given().spec(reqSpec)
+                            .when().get("/yql").timeIn(TimeUnit.SECONDS);
 
         System.out.print(time);
+
     }
 
 

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2ff9f8ba-b342-4c16-a9d9-27a2090b1275" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/responseTime/responseTimeTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/responseTime/responseTimeTest.java" afterPath="$PROJECT_DIR$/src/test/java/responseTime/responseTimeTest.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,11 +31,11 @@
       <file leaf-file-name="responseTimeTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/responseTime/responseTimeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+            <state relative-caret-position="229">
+              <caret line="64" column="20" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1128#1144#0" expanded="true" />
+                <element signature="e#1166#1182#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -490,7 +489,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.responseTimeTest.getTime">
+  <component name="RunManager" selected="JUnit.responseTimeTest.getTimeDifferenceKind">
     <configuration default="false" name="responseSpecTest.checkCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -504,32 +503,6 @@
       <option name="PACKAGE_NAME" value="responseSpec" />
       <option name="MAIN_CLASS_NAME" value="responseSpec.responseSpecTest" />
       <option name="METHOD_NAME" value="checkCount" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="requestSpecTest.testOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="requestSpec.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="StudentAppRestAssure" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="requestSpec" />
-      <option name="MAIN_CLASS_NAME" value="requestSpec.requestSpecTest" />
-      <option name="METHOD_NAME" value="testOne" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -608,6 +581,32 @@
       <option name="PACKAGE_NAME" value="responseTime" />
       <option name="MAIN_CLASS_NAME" value="responseTime.responseTimeTest" />
       <option name="METHOD_NAME" value="getTime" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="responseTimeTest.getTimeDifferenceKind" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="responseTime.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="StudentAppRestAssure" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="responseTime" />
+      <option name="MAIN_CLASS_NAME" value="responseTime.responseTimeTest" />
+      <option name="METHOD_NAME" value="getTimeDifferenceKind" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -827,18 +826,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.responseSpecTest.checkCount" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.requestSpecTest.testOne" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.responseSpecTest.checkHeaders" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.fileDownloadTest.verifyDownload" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.responseTimeTest.getTime" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.responseSpecTest.checkHeaders" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.fileDownloadTest.verifyDownload" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.responseTimeTest.getTime" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.responseTimeTest.getTimeDifferenceKind" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.responseTimeTest.getTime" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.fileDownloadTest.verifyDownload" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.responseSpecTest.checkHeaders" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.responseSpecTest.checkCount" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.requestSpecTest.testOne" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.responseTimeTest.getTimeDifferenceKind" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.responseTimeTest.getTime" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.fileDownloadTest.verifyDownload" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.responseSpecTest.checkHeaders" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.responseSpecTest.checkCount" />
       </list>
     </recent_temporary>
   </component>
@@ -859,9 +858,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="fileDownloadTest_verifyDownload - 2017.09.19 at 14h 42m 47s.xml">
-      <configuration name="fileDownloadTest.verifyDownload" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="requestSpecTest_testOne - 2017.09.19 at 11h 45m 21s.xml">
       <configuration name="requestSpecTest.testOne" configurationId="JUnit" />
     </history-entry>
@@ -889,6 +885,9 @@
     <history-entry file="responseTimeTest_getTime - 2017.09.20 at 13h 50m 15s.xml">
       <configuration name="responseTimeTest.getTime" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="responseTimeTest_getTime - 2017.09.20 at 13h 52m 53s.xml">
+      <configuration name="responseTimeTest.getTime" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1301" height="772" extended-state="6" />
@@ -904,9 +903,9 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32972136" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39628482" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39628482" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28018576" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28018576" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32191235" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1409,11 +1408,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/responseTime/responseTimeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="55" column="0" lean-forward="true" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="229">
+          <caret line="64" column="20" lean-forward="true" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1128#1144#0" expanded="true" />
+            <element signature="e#1166#1182#0" expanded="true" />
           </folding>
         </state>
       </provider>

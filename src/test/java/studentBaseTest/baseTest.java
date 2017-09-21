@@ -13,5 +13,6 @@ public class baseTest {
         RestAssured.baseURI="http://localhost";
         RestAssured.port=8080;
         RestAssured.basePath="/student";
+        RestAssured.proxy("localhost",8888);
     }
 }

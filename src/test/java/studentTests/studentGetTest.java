@@ -19,6 +19,7 @@ public class studentGetTest {
         RestAssured.baseURI = "http://localhost";
         RestAssured.port = 8080;
        // RestAssured.basePath="/student";
+        RestAssured.proxy("localhost",8888);
 
     }
 
@@ -27,7 +28,7 @@ public class studentGetTest {
     {
         Response response =  given()
         .when()
-        .get("/list");
+        .get("student/list");
         response.then()
         .statusCode(200);
         System.out.println(response.body().asString());

@@ -36,6 +36,7 @@ public class studentPostTest extends baseTest {
         RestAssured.basePath="/student";
 
 
+
     }
 
     @Test
@@ -47,7 +48,7 @@ public class studentPostTest extends baseTest {
         Student student = new Student();
         student.setFirstName("Gamze");
         student.setLastName("Akbal");
-        student.setEmail("gakbal112@gmail.com");
+        student.setEmail("gakbal11222@gmail.com");
         student.setProgramme("Tornacı");
         student.setCourses(courses);
 

@@ -17,6 +17,6 @@ public class studentDeleteTest extends baseTest {
     @Test
     public void deleteStudent(){
 
-        given().when().delete("/101").then().statusCode(204);
+        given().when().delete("/109").then().statusCode(204);
     }
 }
